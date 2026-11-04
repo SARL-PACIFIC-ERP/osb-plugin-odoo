@@ -31,8 +31,8 @@ LYRA_PARAMS = {
     'LANGUAGE': 'en',
 
     'GATEWAY_VERSION': 'V2',
-    'PLUGIN_VERSION': '4.2.0',
-    'CMS_IDENTIFIER': 'Odoo_17-18',
+    'PLUGIN_VERSION': '4.3.4',
+    'CMS_IDENTIFIER': 'Odoo_17-19',
     'REST_URL': 'https://api.lyra.com/api-payment/',
     'STATIC_URL': 'https://static.lyra.com/static/'
 }
@@ -176,6 +176,8 @@ LYRA_CARDS = {
     'NARANJA': u'Naranja',
     'NORAUTO': u'Carte Norauto option Financement',
     'NORAUTO_SB': u'Carte Norauto option Financement (sandbox)',
+    'OG_PB': u'Carte Passion Beauté',
+    'OG_TEST': u'Ogloba Test',
     'ONEY_10X_12X': u'Paiement en 10 ou 12 fois Oney',
     'ONEY_3X_4X': u'Paiement en 3 ou 4 fois Oney',
     'ONEY_ENSEIGNE': u'Cartes enseignes Oney',
@@ -190,9 +192,9 @@ LYRA_CARDS = {
     'PAYPAL_SB': u'PayPal Sandbox',
     'PICWIC': u'Carte Picwic',
     'PICWIC_SB': u'Carte Picwic (sandbox)',
+    'PIX': u'Pix',
     'POSTFINANCE': u'PostFinance Card',
     'POSTFINANCE_EFIN': u'PostFinance E-Finance',
-    'PRESTO': u'Presto',
     'PRZELEWY24': u'Przelewy24',
     'RABBIT_LINE_PAY': u'Rabbit Line Pay',
     'S-MONEY': u'S-money',
@@ -205,10 +207,12 @@ LYRA_CARDS = {
     'TNG': u'Touch \'n Go eWallet',
     'TOSS': u'Toss',
     'TRUEMONEY': u'TrueMoney Wallet',
+    'TWINT': u'Twint',
     'UPI': u'UPI',
     'VILLAVERDE': u'Carte Cadeau VillaVerde',
     'VILLAVERDE_SB': u'Carte Cadeau VillaVerde (sandbox)',
     'WECHAT': u'WeChat Pay',
+    'WECHAT_PAY': u'WeChat Pay',
 }
 
 LYRA_CURRENCIES = [
